@@ -467,11 +467,22 @@ nav ul li a:hover {
     display: none;
 }
 
+.calendly-inline-widget{
+    margin-top: 100px;
+    min-width: 320px;
+    height: 700px;
+}
+
 @media only screen and (max-width:1141px) {
     .show-off{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .calendly-inline-widget{
+        min-width: 320px;
+        height: 800px;
     }
 
     .reverse{
